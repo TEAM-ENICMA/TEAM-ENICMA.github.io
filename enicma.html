@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENICMA</title>
+    <style>
+        body{background-color: rgb(246, 240, 190);}
+        .title{
+            max-width: 1100px; height: 200px; background-color: #AB3D3C;
+            margin: auto; padding-top: 0px; text-align: center;
+        }
+        .titleContainer{float: left; padding-left: 50px;}
+        .intro{
+            max-width: 1100px; max-height: fit-content; background-color: rgb(171, 61, 60);
+            margin: auto; padding-top: 10px; padding-bottom: 10px; text-align: center;
+        }
+        .buttons{
+            background-color: rgb(171, 61, 60); border: rgb(246, 240, 190);
+            color: rgb(246, 240, 190); text-align: center; font-size: 16px;
+            display: inline-block; border-style: groove; font-style: oblique;
+        }
+        .definition{
+            max-width: 1100px; max-height: fit-content; background-color: #AB3D3C;
+            margin: auto; padding-top: 25px; padding-bottom: 25px; line-height: 1.8;
+            text-align: left; color: rgb(246, 240, 190);
+            
+        }
+        .defContainer{padding-left: 50px; padding-right: 50px;}
+        .projects{
+            max-width: 1100px; max-height: fit-content; background-color: #AB3D3C;
+            margin: auto; padding-top: 25px; padding-bottom: 25px; line-height: 1.8;
+            text-align: center; color: rgb(246, 240, 190);
+        }
+        .proContainer{padding-left: 50px; padding-right: 50px;}
+        table, th, td{border: 1px solid rgb(246, 240, 190);}
+        .team{
+            max-width: 1100px; height: 200px; background-color: #AB3D3C;
+            margin: auto; padding-top: 25px; padding-bottom: 25px;
+            text-align: center; color: rgb(246, 240, 190);
+        }
+        .teamContainer{float: left; padding-left: 50px; text-align: left;}
+
+    </style>
+</head>
+<body>
+    <div class = "title", style = "border: 2px solid rgb(246, 240, 190);">
+        <div class = "titleContainer">
+            <h1>
+                <img src="images/sembol4.jpg">
+            </h1>
+        </div>
+        <div class = "titleContainer">
+            <h2>
+                <img src="images/wall.png">
+            </h2>
+        </div>
+    </div>
+    <div class = "intro", style = "border: 2px solid rgb(246, 240, 190);">
+        <button class = "buttons"><a href = "#def">What is ENICMA?</a></button>
+        <button class = "buttons"><a href = "#pro">Projects</a></button>
+        <button class = "buttons"><a href = "#tm">Our Team</a></button>
+    </div>
+    <div class = "definition", style = "border: 2px solid rgb(246, 240, 190);", id = "def">
+        <div class = "defContainer">
+            <p>
+                ENICMA is a GitHub organisation that aims to develop software tools,
+                algorithms, AI programs, and various engineering techniques for the
+                life sciences. The primary objective of ENICMA is to enhance bioinformatics
+                tools by refining existing algorithms and developing new ones to effectively
+                address biological challenges. Additionally, ENICMA aims to convert the
+                innovative methods and techniques derived from the field of bioinformatics
+                into video documentation, allowing for their widespread dissemination on the internet.
+            </p>
+            <p>
+                ENICMA's overarching objective is to secure financial backing and establish a team of
+                volunteers dedicated to advancing diverse engineering methods within other biotechnology domains.
+                The aim is to foster the creation of numerous open-source projects, thus cultivating an ecosystem
+                where biotechnologists can freely exchange ideas and collaborate on joint initiatives.
+            </p>
+            <p>
+                At present, ENICMA primarily concentrates on addressing two key areas: early identification and
+                diagnosis of diseases in children, with a potential focus on developing alternative treatment methods.
+                Additionally, ENICMA aims to prioritize research related to the environment and climate.
+                As part of this long-term objective, ENICMA intends to establish an 'eco-informatics' sub-team dedicated to these endeavors.
+            </p>
+        </div>
+    </div>
+    <div class = "projects", style = "border: 2px solid rgb(246, 240, 190);", id = "pro">
+        <div class = "proContainer">
+            <table style="width: 100%;">
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>UniProtScraper</td>
+                    <td>
+                        UniprotScraper is a web scraping tool that specialized for Uniprot Database.
+                        It requires only the uniprot entry number of relevant protein.
+                    </td>
+                    <td>
+                        <a href="https://github.com/TEAM-ENICMA/UniprotScraper">Go to UniprotScraper</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CONS3NSUS</td>
+                    <td>
+                        CONS3NSUS, is a bioinformatics tool that calculates the consensus string of given sequences.
+                    </td>
+                    <td>
+                        <a href="https://github.com/TEAM-ENICMA/CONS3NSUS">Go to CONS3NSUS</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class = "team", style = "border: 2px solid rgb(246, 240, 190);", id = "tm">
+        <div class = "teamContainer">
+            <h1>
+                <img src="images/ozgurcan.jpg">
+            </h1>
+        </div>
+        <div class = "teamContainer">
+            <p>Özgür Can Arıcan</p>
+            <p>Bioinformatician</p>
+        </div>
+        <div class = "teamContainer">
+            <p>* Algorithm and AI Development</p>
+            <p>* Functional Proteomics</p>
+            <p>* Biological Data Science</p>
+        </div>
+    </div>
+    <div class = "team", style = "border: 2px solid rgb(246, 240, 190);">
+        <div class = "teamContainer">
+            <h1>
+                <img src="images/umut.jpeg">
+            </h1>
+        </div>
+        <div class = "teamContainer">
+            <p>Aziz Umut Durak</p>
+            <p>Bioengineer (Volunteer)</p>
+        </div>
+        <div class = "teamContainer">
+            <p>* Molecular Docking</p>
+            <p>* Drug Development</p>
+            <p>* Protein Interactions</p>
+        </div>
+    </div>
+    <div class = "team", style = "border: 2px solid rgb(246, 240, 190);">
+        <div class = "teamContainer">
+            <h1>
+                <img src="images/melih.jpg">
+            </h1>
+        </div>
+        <div class = "teamContainer">
+            <p>Melih Temel</p>
+            <p>Bioengineer &</p>
+            <p>Social Media Consultant (Volunteer)</p>
+        </div>
+        <div class = "teamContainer">
+            <p>* Molecular Genetics</p>
+            <p>* DNA Extraction and Sequencing</p>
+            <p>* Data Analysis</p>
+        </div>
+    </div>
+    <div class = "team", style = "border: 2px solid rgb(246, 240, 190);">
+        <div class = "teamContainer">
+            <h1>
+                <img src="images/bilge.jpg">
+            </h1>
+        </div>
+        <div class = "teamContainer">
+            <p>Bilgehan Nevruz</p>
+            <p>Bioinformatician (Volunteer)</p>
+        </div>
+        <div class = "teamContainer">
+            <p>* Genomic Pipeline Automation</p>
+            <p>* Web Development</p>
+            <p>* Software Development</p>
+        </div>
+    </div>
+    <div class = "team", style = "border: 2px solid rgb(246, 240, 190);">
+        <div class = "teamContainer">
+            <h1>
+                <img src="images/saygin.png">
+            </h1>
+        </div>
+        <div class = "teamContainer">
+            <p>Saygın Portakal</p>
+            <p>Bioengineer (Volunteer)</p>
+        </div>
+        <div class = "teamContainer">
+            <p>* Gene Therapy</p>
+            <p>* Genome Modification</p>
+            <p>* Computer Aided Drug Design</p>
+        </div>
+    </div>       
+</body>
+</html>
